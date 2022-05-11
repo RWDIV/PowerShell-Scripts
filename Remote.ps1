@@ -2,6 +2,6 @@
 
 function Remote-Restart
 {
-$ComputerName = Read-Host "Please enter the computer name."
-Restart-Computer -ComputerName $ComputerName -Wait -For PowerShell -Timeout 300 -Delay 2 
+$CName = Read-Host "Please enter the computer name."
+Restart-Computer -ComputerName $CName -Wait -For PowerShell -Timeout 300 -Delay 2 
 }
