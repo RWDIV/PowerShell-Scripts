@@ -4,11 +4,13 @@
 
 ## PowerShell Scripts:
 
+### [Remote]
+### [ServiceStatus]
 ### [Multiple Computers]
-
 ### [Download Folder] 
 
-### [Remote]
+
+
 
 
 
@@ -29,3 +31,5 @@
 [Remote]: https://github.com/RWDIV/PowerShell-Scripts/blob/main/Remote.ps1 
 
 [LinkedIn]: https://www.linkedin.com/in/raymond-dibeler-iv/
+
+[ServiceStatus]: https://github.com/RWDIV/PowerShell-Scripts/blob/main/ServiceStatus.ps1
