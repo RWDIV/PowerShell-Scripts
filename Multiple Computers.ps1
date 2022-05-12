@@ -26,6 +26,6 @@ Select-Object -Property Name,Operatingsystem,OperatingSystemVersion
 # Create list of computers that have not logged onto the network within 30 days
 
 $Days = 30
-$Time = (Get-Date).Adddays(-(-$Days))
+$Time = (Get-Date).Adddays(-(-$Days))    
 Get-ADComputer -Filter {LastLogonTimeStamp -gt $Time} -Properties * | Select Name, LastLogonDate
 
